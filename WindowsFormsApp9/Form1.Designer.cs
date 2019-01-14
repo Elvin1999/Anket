@@ -249,7 +249,7 @@
             // 
             this.deserealizelabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.deserealizelabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deserealizelabel.Location = new System.Drawing.Point(256, 35);
+            this.deserealizelabel.Location = new System.Drawing.Point(256, 47);
             this.deserealizelabel.Name = "deserealizelabel";
             this.deserealizelabel.Size = new System.Drawing.Size(117, 27);
             this.deserealizelabel.TabIndex = 21;
@@ -258,9 +258,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(581, 35);
+            this.button1.Location = new System.Drawing.Point(576, 47);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(83, 27);
             this.button1.TabIndex = 22;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
@@ -270,7 +270,7 @@
             // 
             this.filenametextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.filenametextbox.ForeColor = System.Drawing.Color.Gray;
-            this.filenametextbox.Location = new System.Drawing.Point(439, 35);
+            this.filenametextbox.Location = new System.Drawing.Point(379, 45);
             this.filenametextbox.Multiline = true;
             this.filenametextbox.Name = "filenametextbox";
             this.filenametextbox.Size = new System.Drawing.Size(113, 29);

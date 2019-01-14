@@ -219,6 +219,7 @@ namespace WindowsFormsApp9
                     label.TextAlign = ContentAlignment.TopCenter;
                 }
             }
+            backLabel.TextAlign = ContentAlignment.TopLeft;
         }
     }
 }
