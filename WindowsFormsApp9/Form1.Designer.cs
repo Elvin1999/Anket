@@ -48,8 +48,8 @@
             this.femaleradiobutton = new System.Windows.Forms.RadioButton();
             this.deserealizelabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.filename = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.filenametextbox = new System.Windows.Forms.TextBox();
+            this.buttonGetresult = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // backLabel
@@ -98,7 +98,6 @@
             this.countrylabel.Size = new System.Drawing.Size(111, 20);
             this.countrylabel.TabIndex = 6;
             this.countrylabel.Text = "Country";
-            this.countrylabel.Click += new System.EventHandler(this.label3_Click);
             // 
             // citylabel
             // 
@@ -126,10 +125,11 @@
             this.birthdaylabel.Size = new System.Drawing.Size(111, 20);
             this.birthdaylabel.TabIndex = 9;
             this.birthdaylabel.Text = "Birthdate";
-            this.birthdaylabel.Click += new System.EventHandler(this.label6_Click);
             // 
             // dateTimePicker
             // 
+            this.dateTimePicker.CalendarForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.dateTimePicker.CalendarTitleForeColor = System.Drawing.SystemColors.ScrollBar;
             this.dateTimePicker.Location = new System.Drawing.Point(379, 316);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(200, 20);
@@ -137,46 +137,58 @@
             // 
             // nametextBox
             // 
+            this.nametextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.nametextBox.Location = new System.Drawing.Point(379, 91);
             this.nametextBox.Multiline = true;
             this.nametextBox.Name = "nametextBox";
             this.nametextBox.Size = new System.Drawing.Size(200, 20);
             this.nametextBox.TabIndex = 11;
+            this.nametextBox.Text = "name";
             // 
             // surnametextBox
             // 
+            this.surnametextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.surnametextBox.Location = new System.Drawing.Point(379, 126);
             this.surnametextBox.Name = "surnametextBox";
             this.surnametextBox.Size = new System.Drawing.Size(200, 20);
             this.surnametextBox.TabIndex = 12;
+            this.surnametextBox.Text = "surname";
             // 
             // fathernametextBox
             // 
+            this.fathernametextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.fathernametextBox.Location = new System.Drawing.Point(379, 158);
             this.fathernametextBox.Name = "fathernametextBox";
             this.fathernametextBox.Size = new System.Drawing.Size(200, 20);
             this.fathernametextBox.TabIndex = 13;
+            this.fathernametextBox.Text = "father name";
             // 
             // countrytextBox
             // 
+            this.countrytextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.countrytextBox.Location = new System.Drawing.Point(379, 214);
             this.countrytextBox.Name = "countrytextBox";
             this.countrytextBox.Size = new System.Drawing.Size(200, 20);
             this.countrytextBox.TabIndex = 14;
+            this.countrytextBox.Text = "country";
             // 
             // citytextBox
             // 
+            this.citytextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.citytextBox.Location = new System.Drawing.Point(379, 246);
             this.citytextBox.Name = "citytextBox";
             this.citytextBox.Size = new System.Drawing.Size(200, 20);
             this.citytextBox.TabIndex = 15;
+            this.citytextBox.Text = "City";
             // 
             // phonenumbertextBox
             // 
+            this.phonenumbertextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.phonenumbertextBox.Location = new System.Drawing.Point(379, 285);
             this.phonenumbertextBox.Name = "phonenumbertextBox";
             this.phonenumbertextBox.Size = new System.Drawing.Size(200, 20);
             this.phonenumbertextBox.TabIndex = 16;
+            this.phonenumbertextBox.Text = "phone number";
             // 
             // genderlabel
             // 
@@ -229,35 +241,38 @@
             this.button1.TabIndex = 22;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // filename
+            // filenametextbox
             // 
-            this.filename.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.filename.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.filename.Location = new System.Drawing.Point(451, 38);
-            this.filename.Multiline = true;
-            this.filename.Name = "filename";
-            this.filename.Size = new System.Drawing.Size(105, 20);
-            this.filename.TabIndex = 23;
-            this.filename.Text = "Filename";
+            this.filenametextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.filenametextbox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.filenametextbox.Location = new System.Drawing.Point(451, 38);
+            this.filenametextbox.Multiline = true;
+            this.filenametextbox.Name = "filenametextbox";
+            this.filenametextbox.Size = new System.Drawing.Size(105, 20);
+            this.filenametextbox.TabIndex = 23;
+            this.filenametextbox.Text = "Filename";
+            this.filenametextbox.Enter += new System.EventHandler(this.filenametextbox_Enter);
             // 
-            // button2
+            // buttonGetresult
             // 
-            this.button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(367, 424);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(212, 23);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "Get Result";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonGetresult.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonGetresult.Location = new System.Drawing.Point(367, 424);
+            this.buttonGetresult.Name = "buttonGetresult";
+            this.buttonGetresult.Size = new System.Drawing.Size(212, 23);
+            this.buttonGetresult.TabIndex = 24;
+            this.buttonGetresult.Text = "Get Result";
+            this.buttonGetresult.UseVisualStyleBackColor = true;
+            this.buttonGetresult.Click += new System.EventHandler(this.buttonGetresult_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(905, 553);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.filename);
+            this.Controls.Add(this.buttonGetresult);
+            this.Controls.Add(this.filenametextbox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.deserealizelabel);
             this.Controls.Add(this.femaleradiobutton);
@@ -280,7 +295,6 @@
             this.Controls.Add(this.backLabel);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,8 +321,8 @@
         private System.Windows.Forms.RadioButton femaleradiobutton;
         private System.Windows.Forms.Label deserealizelabel;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox filename;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox filenametextbox;
+        private System.Windows.Forms.Button buttonGetresult;
     }
 }
 
