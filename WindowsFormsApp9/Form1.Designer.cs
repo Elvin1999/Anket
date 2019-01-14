@@ -54,7 +54,7 @@
             // 
             // backLabel
             // 
-            this.backLabel.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.backLabel.BackColor = System.Drawing.Color.LightSkyBlue;
             this.backLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.backLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.backLabel.Location = new System.Drawing.Point(213, 9);
@@ -148,7 +148,7 @@
             this.nametextBox.Location = new System.Drawing.Point(379, 91);
             this.nametextBox.Multiline = true;
             this.nametextBox.Name = "nametextBox";
-            this.nametextBox.Size = new System.Drawing.Size(211, 20);
+            this.nametextBox.Size = new System.Drawing.Size(200, 20);
             this.nametextBox.TabIndex = 11;
             this.nametextBox.Text = "Name";
             this.nametextBox.Enter += new System.EventHandler(this.nametextBox_Enter);
@@ -294,6 +294,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(834, 462);
             this.Controls.Add(this.buttonGetresult);
             this.Controls.Add(this.filenametextbox);

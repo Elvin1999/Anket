@@ -48,7 +48,7 @@ namespace WindowsFormsApp9
         //button1_Click belong to filenametextbox
         private void button1_Click(object sender, EventArgs e)
         {
-            Anket resultanket = null;
+            Anket resultanket = new Anket();
             filenametextbox.Text += ".json";
             if (File.Exists(filenametextbox.Text))
             {

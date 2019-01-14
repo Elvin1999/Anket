@@ -7,6 +7,7 @@ namespace WindowsFormsApp9
 {
    public class Anket
     {
+        public Anket() { }
         public Anket(string filename, string name, string surname, string fatherName,
             string country, string city, string phonenumber, DateTime birthDate, string gender)
         {
