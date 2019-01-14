@@ -55,7 +55,7 @@
             // backLabel
             // 
             this.backLabel.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.backLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.backLabel.Font = new System.Drawing.Font("OCR A Extended", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.backLabel.Location = new System.Drawing.Point(213, 9);
             this.backLabel.Name = "backLabel";
@@ -249,9 +249,9 @@
             // 
             this.deserealizelabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.deserealizelabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deserealizelabel.Location = new System.Drawing.Point(262, 35);
+            this.deserealizelabel.Location = new System.Drawing.Point(256, 35);
             this.deserealizelabel.Name = "deserealizelabel";
-            this.deserealizelabel.Size = new System.Drawing.Size(111, 29);
+            this.deserealizelabel.Size = new System.Drawing.Size(117, 27);
             this.deserealizelabel.TabIndex = 21;
             this.deserealizelabel.Text = "Deserialize";
             // 
@@ -319,7 +319,8 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.backLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Anket";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

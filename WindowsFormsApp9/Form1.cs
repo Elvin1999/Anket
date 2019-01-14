@@ -76,6 +76,7 @@ namespace WindowsFormsApp9
                 if(item is TextBox tb)
                 {
                     tb.ForeColor = Color.Black;
+                    
                 }
             }
         }
@@ -206,6 +207,17 @@ namespace WindowsFormsApp9
             {
                 phonenumbertextBox.ForeColor = Color.Gray;
                 phonenumbertextBox.Text = "Phone number";
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            foreach (var item in Controls)
+            {
+                if (item is Label label)
+                {
+                    label.TextAlign = ContentAlignment.TopCenter;
+                }
             }
         }
     }
