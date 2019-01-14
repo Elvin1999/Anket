@@ -66,63 +66,70 @@
             // nameLabel
             // 
             this.nameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.nameLabel.Location = new System.Drawing.Point(262, 91);
+            this.nameLabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameLabel.Location = new System.Drawing.Point(256, 91);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(111, 35);
+            this.nameLabel.Size = new System.Drawing.Size(117, 27);
             this.nameLabel.TabIndex = 3;
             this.nameLabel.Text = "Firstname";
             // 
             // surnamelabel
             // 
             this.surnamelabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.surnamelabel.Location = new System.Drawing.Point(262, 126);
+            this.surnamelabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.surnamelabel.Location = new System.Drawing.Point(256, 126);
             this.surnamelabel.Name = "surnamelabel";
-            this.surnamelabel.Size = new System.Drawing.Size(111, 35);
+            this.surnamelabel.Size = new System.Drawing.Size(117, 27);
             this.surnamelabel.TabIndex = 4;
             this.surnamelabel.Text = "Lastname";
             // 
             // fathernamelabel
             // 
             this.fathernamelabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.fathernamelabel.Location = new System.Drawing.Point(262, 161);
+            this.fathernamelabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fathernamelabel.Location = new System.Drawing.Point(256, 161);
             this.fathernamelabel.Name = "fathernamelabel";
-            this.fathernamelabel.Size = new System.Drawing.Size(111, 35);
+            this.fathernamelabel.Size = new System.Drawing.Size(117, 27);
             this.fathernamelabel.TabIndex = 5;
             this.fathernamelabel.Text = "Father name";
             // 
             // countrylabel
             // 
             this.countrylabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.countrylabel.Location = new System.Drawing.Point(262, 214);
+            this.countrylabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.countrylabel.Location = new System.Drawing.Point(256, 207);
             this.countrylabel.Name = "countrylabel";
-            this.countrylabel.Size = new System.Drawing.Size(111, 20);
+            this.countrylabel.Size = new System.Drawing.Size(117, 27);
             this.countrylabel.TabIndex = 6;
             this.countrylabel.Text = "Country";
             // 
             // citylabel
             // 
             this.citylabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.citylabel.Location = new System.Drawing.Point(262, 249);
+            this.citylabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.citylabel.Location = new System.Drawing.Point(256, 246);
             this.citylabel.Name = "citylabel";
-            this.citylabel.Size = new System.Drawing.Size(111, 26);
+            this.citylabel.Size = new System.Drawing.Size(117, 27);
             this.citylabel.TabIndex = 7;
             this.citylabel.Text = "City";
             // 
             // phonenumberlabel
             // 
             this.phonenumberlabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.phonenumberlabel.Location = new System.Drawing.Point(262, 288);
+            this.phonenumberlabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phonenumberlabel.Location = new System.Drawing.Point(256, 285);
             this.phonenumberlabel.Name = "phonenumberlabel";
-            this.phonenumberlabel.Size = new System.Drawing.Size(111, 19);
+            this.phonenumberlabel.Size = new System.Drawing.Size(117, 27);
             this.phonenumberlabel.TabIndex = 8;
             this.phonenumberlabel.Text = "Phone number";
             // 
             // birthdaylabel
             // 
             this.birthdaylabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.birthdaylabel.Location = new System.Drawing.Point(262, 316);
+            this.birthdaylabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.birthdaylabel.Location = new System.Drawing.Point(256, 316);
             this.birthdaylabel.Name = "birthdaylabel";
-            this.birthdaylabel.Size = new System.Drawing.Size(111, 20);
+            this.birthdaylabel.Size = new System.Drawing.Size(117, 27);
             this.birthdaylabel.TabIndex = 9;
             this.birthdaylabel.Text = "Birthdate";
             // 
@@ -137,65 +144,78 @@
             // 
             // nametextBox
             // 
-            this.nametextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.nametextBox.ForeColor = System.Drawing.Color.Gray;
             this.nametextBox.Location = new System.Drawing.Point(379, 91);
             this.nametextBox.Multiline = true;
             this.nametextBox.Name = "nametextBox";
-            this.nametextBox.Size = new System.Drawing.Size(200, 20);
+            this.nametextBox.Size = new System.Drawing.Size(211, 20);
             this.nametextBox.TabIndex = 11;
-            this.nametextBox.Text = "name";
+            this.nametextBox.Text = "Name";
+            this.nametextBox.Enter += new System.EventHandler(this.nametextBox_Enter);
+            this.nametextBox.Leave += new System.EventHandler(this.nametextBox_Leave);
             // 
             // surnametextBox
             // 
-            this.surnametextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.surnametextBox.ForeColor = System.Drawing.Color.Gray;
             this.surnametextBox.Location = new System.Drawing.Point(379, 126);
             this.surnametextBox.Name = "surnametextBox";
             this.surnametextBox.Size = new System.Drawing.Size(200, 20);
             this.surnametextBox.TabIndex = 12;
-            this.surnametextBox.Text = "surname";
+            this.surnametextBox.Text = "Surname";
+            this.surnametextBox.Enter += new System.EventHandler(this.surnametextBox_Enter);
+            this.surnametextBox.Leave += new System.EventHandler(this.surnametextBox_Leave);
             // 
             // fathernametextBox
             // 
-            this.fathernametextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.fathernametextBox.Location = new System.Drawing.Point(379, 158);
+            this.fathernametextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fathernametextBox.Location = new System.Drawing.Point(379, 161);
             this.fathernametextBox.Name = "fathernametextBox";
             this.fathernametextBox.Size = new System.Drawing.Size(200, 20);
             this.fathernametextBox.TabIndex = 13;
-            this.fathernametextBox.Text = "father name";
+            this.fathernametextBox.Text = "Father_name";
+            this.fathernametextBox.Enter += new System.EventHandler(this.fathernametextBox_Enter);
+            this.fathernametextBox.Leave += new System.EventHandler(this.fathernametextBox_Leave);
             // 
             // countrytextBox
             // 
-            this.countrytextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.countrytextBox.Location = new System.Drawing.Point(379, 214);
+            this.countrytextBox.ForeColor = System.Drawing.Color.Gray;
+            this.countrytextBox.Location = new System.Drawing.Point(379, 207);
             this.countrytextBox.Name = "countrytextBox";
             this.countrytextBox.Size = new System.Drawing.Size(200, 20);
             this.countrytextBox.TabIndex = 14;
-            this.countrytextBox.Text = "country";
+            this.countrytextBox.Text = "Country";
+            this.countrytextBox.Enter += new System.EventHandler(this.countrytextBox_Enter);
+            this.countrytextBox.Leave += new System.EventHandler(this.countrytextBox_Leave);
             // 
             // citytextBox
             // 
-            this.citytextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.citytextBox.ForeColor = System.Drawing.Color.Gray;
             this.citytextBox.Location = new System.Drawing.Point(379, 246);
             this.citytextBox.Name = "citytextBox";
             this.citytextBox.Size = new System.Drawing.Size(200, 20);
             this.citytextBox.TabIndex = 15;
             this.citytextBox.Text = "City";
+            this.citytextBox.Enter += new System.EventHandler(this.citytextBox_Enter);
+            this.citytextBox.Leave += new System.EventHandler(this.citytextBox_Leave);
             // 
             // phonenumbertextBox
             // 
-            this.phonenumbertextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.phonenumbertextBox.ForeColor = System.Drawing.Color.Gray;
             this.phonenumbertextBox.Location = new System.Drawing.Point(379, 285);
             this.phonenumbertextBox.Name = "phonenumbertextBox";
             this.phonenumbertextBox.Size = new System.Drawing.Size(200, 20);
             this.phonenumbertextBox.TabIndex = 16;
-            this.phonenumbertextBox.Text = "phone number";
+            this.phonenumbertextBox.Text = "Phone number";
+            this.phonenumbertextBox.Enter += new System.EventHandler(this.phonenumbertextBox_Enter);
+            this.phonenumbertextBox.Leave += new System.EventHandler(this.phonenumbertextBox_Leave);
             // 
             // genderlabel
             // 
             this.genderlabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.genderlabel.Location = new System.Drawing.Point(262, 362);
+            this.genderlabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genderlabel.Location = new System.Drawing.Point(256, 364);
             this.genderlabel.Name = "genderlabel";
-            this.genderlabel.Size = new System.Drawing.Size(111, 32);
+            this.genderlabel.Size = new System.Drawing.Size(117, 27);
             this.genderlabel.TabIndex = 17;
             this.genderlabel.Text = "Gender";
             // 
@@ -203,9 +223,10 @@
             // 
             this.maleradioButton.AutoSize = true;
             this.maleradioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.maleradioButton.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maleradioButton.Location = new System.Drawing.Point(379, 364);
             this.maleradioButton.Name = "maleradioButton";
-            this.maleradioButton.Size = new System.Drawing.Size(48, 17);
+            this.maleradioButton.Size = new System.Drawing.Size(53, 27);
             this.maleradioButton.TabIndex = 18;
             this.maleradioButton.TabStop = true;
             this.maleradioButton.Text = "Male";
@@ -215,9 +236,10 @@
             // 
             this.femaleradiobutton.AutoSize = true;
             this.femaleradiobutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.femaleradiobutton.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.femaleradiobutton.Location = new System.Drawing.Point(497, 364);
             this.femaleradiobutton.Name = "femaleradiobutton";
-            this.femaleradiobutton.Size = new System.Drawing.Size(59, 17);
+            this.femaleradiobutton.Size = new System.Drawing.Size(66, 27);
             this.femaleradiobutton.TabIndex = 20;
             this.femaleradiobutton.TabStop = true;
             this.femaleradiobutton.Text = "Female";
@@ -226,9 +248,10 @@
             // deserealizelabel
             // 
             this.deserealizelabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.deserealizelabel.Font = new System.Drawing.Font("Niagara Solid", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deserealizelabel.Location = new System.Drawing.Point(262, 35);
             this.deserealizelabel.Name = "deserealizelabel";
-            this.deserealizelabel.Size = new System.Drawing.Size(111, 35);
+            this.deserealizelabel.Size = new System.Drawing.Size(111, 29);
             this.deserealizelabel.TabIndex = 21;
             this.deserealizelabel.Text = "Deserialize";
             // 
@@ -246,14 +269,15 @@
             // filenametextbox
             // 
             this.filenametextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.filenametextbox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.filenametextbox.Location = new System.Drawing.Point(451, 38);
+            this.filenametextbox.ForeColor = System.Drawing.Color.Gray;
+            this.filenametextbox.Location = new System.Drawing.Point(439, 35);
             this.filenametextbox.Multiline = true;
             this.filenametextbox.Name = "filenametextbox";
-            this.filenametextbox.Size = new System.Drawing.Size(105, 20);
+            this.filenametextbox.Size = new System.Drawing.Size(113, 29);
             this.filenametextbox.TabIndex = 23;
             this.filenametextbox.Text = "Filename";
             this.filenametextbox.Enter += new System.EventHandler(this.filenametextbox_Enter);
+            this.filenametextbox.Leave += new System.EventHandler(this.filenametextbox_Leave);
             // 
             // buttonGetresult
             // 
@@ -270,7 +294,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(905, 553);
+            this.ClientSize = new System.Drawing.Size(834, 462);
             this.Controls.Add(this.buttonGetresult);
             this.Controls.Add(this.filenametextbox);
             this.Controls.Add(this.button1);
